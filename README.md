@@ -1,2 +1,2 @@
-# LeeCode-solutions-in-C
-LeetCode  C solutions
+# LeeCode
+LeetCode solutions in C
