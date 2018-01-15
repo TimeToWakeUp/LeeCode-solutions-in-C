@@ -12,7 +12,7 @@ int** generate(int numRows, int** columnSizes) {
     for(i=0;i<numRows;i++)
     {
         *(*columnSizes+i)=i+1;
-        *(result+i)=malloc(sizeof(int)*(i+1));
+        *(result+i)=malloc(sizeof(int)*(i+1)); //每行元素的个数等于该行对应的行数
         for(j=0;j<=i;j++)
         {
             if(j==0||j==i)
