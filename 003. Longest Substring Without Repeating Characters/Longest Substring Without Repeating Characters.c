@@ -16,7 +16,7 @@ int lengthOfLongestSubstring(char* s) {
                 start=j+1;
                 break;
             }
-            else CurrentSum++; //s[i]与当前计数的不重复子字符串中的字符都不重复，则前计数的不重复子字符串长度CurrentSum加1
+            else CurrentSum++; //计算当前不重复子字符串的长度
         }
         if(CurrentSum>MaxSum)  MaxSum=CurrentSum;
     }
